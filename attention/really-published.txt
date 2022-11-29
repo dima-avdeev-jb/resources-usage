@@ -1,0 +1,301 @@
+File at link:
+https://maven.pkg.jetbrains.space/public/p/compose/dev/org/jetbrains/compose/components/components-resources/1.3.0-beta04-dev871/components-resources-1.3.0-beta04-dev871.module
+
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.compose.components",
+    "module": "components-resources",
+    "version": "1.3.0-beta04-dev871",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.3.0-beta04-dev871"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.3.0-beta04-dev871"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-metadata-1.3.0-beta04-dev871.jar",
+          "url": "components-resources-1.3.0-beta04-dev871.jar",
+          "size": 8469,
+          "sha512": "dcfe4685308c0f5119a692334805d6e0e0ab1192caa0bcee8a80ea4e7f10b82a52439f7a6951dad94331a47438f89f73a8ec1acc5be0fa74a0499907c0ea1974",
+          "sha256": "7a1931975f789c70b725a5b1f7808b7a2bdef0685a54d59c10cb2b3b5f4ae717",
+          "sha1": "58d24fb0f0e9d4796433a43111ca5ef982932000",
+          "md5": "f6c525667d834565051e6a0863fb9d09"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../library-android/1.3.0-beta04-dev871/library-android-1.3.0-beta04-dev871.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "library-android",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../library-android/1.3.0-beta04-dev871/library-android-1.3.0-beta04-dev871.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "library-android",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../components-resources-desktop/1.3.0-beta04-dev871/components-resources-desktop-1.3.0-beta04-dev871.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-desktop",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../components-resources-desktop/1.3.0-beta04-dev871/components-resources-desktop-1.3.0-beta04-dev871.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-desktop",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../library-iosarm64/1.3.0-beta04-dev871/library-iosarm64-1.3.0-beta04-dev871.module",
+        "group": "components.resources",
+        "module": "library-iosarm64",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../library-iosarm64/1.3.0-beta04-dev871/library-iosarm64-1.3.0-beta04-dev871.module",
+        "group": "components.resources",
+        "module": "library-iosarm64",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../library-iossimulatorarm64/1.3.0-beta04-dev871/library-iossimulatorarm64-1.3.0-beta04-dev871.module",
+        "group": "components.resources",
+        "module": "library-iossimulatorarm64",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../library-iossimulatorarm64/1.3.0-beta04-dev871/library-iossimulatorarm64-1.3.0-beta04-dev871.module",
+        "group": "components.resources",
+        "module": "library-iossimulatorarm64",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../library-iosx64/1.3.0-beta04-dev871/library-iosx64-1.3.0-beta04-dev871.module",
+        "group": "components.resources",
+        "module": "library-iosx64",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../library-iosx64/1.3.0-beta04-dev871/library-iosx64-1.3.0-beta04-dev871.module",
+        "group": "components.resources",
+        "module": "library-iosx64",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../components-resources-js/1.3.0-beta04-dev871/components-resources-js-1.3.0-beta04-dev871.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-js",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../components-resources-js/1.3.0-beta04-dev871/components-resources-js-1.3.0-beta04-dev871.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-js",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../library-macosarm64/1.3.0-beta04-dev871/library-macosarm64-1.3.0-beta04-dev871.module",
+        "group": "components.resources",
+        "module": "library-macosarm64",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../library-macosarm64/1.3.0-beta04-dev871/library-macosarm64-1.3.0-beta04-dev871.module",
+        "group": "components.resources",
+        "module": "library-macosarm64",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../library-macosx64/1.3.0-beta04-dev871/library-macosx64-1.3.0-beta04-dev871.module",
+        "group": "components.resources",
+        "module": "library-macosx64",
+        "version": "1.3.0-beta04-dev871"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../library-macosx64/1.3.0-beta04-dev871/library-macosx64-1.3.0-beta04-dev871.module",
+        "group": "components.resources",
+        "module": "library-macosx64",
+        "version": "1.3.0-beta04-dev871"
+      }
+    }
+  ]
+}

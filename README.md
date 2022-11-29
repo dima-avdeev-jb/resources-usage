@@ -17,4 +17,4 @@ And I made workaround `implementation("org.jetbrains.compose.components:componen
 ## Possible problem:
 Take a look at file I copied from .m2/... dir [components-resources-0.0.0-custom-version.module](attention%2Fcomponents-resources-0.0.0-custom-version.module)
 
-And really published https://maven.pkg.jetbrains.space/public/p/compose/dev/org/jetbrains/compose/components/components-resources/1.3.0-beta04-dev871/components-resources-1.3.0-beta04-dev871.module
+And really published [really-published.txt](attention%2Freally-published.txt)
