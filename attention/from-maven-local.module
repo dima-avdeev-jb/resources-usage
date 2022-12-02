@@ -1,12 +1,9 @@
-File at link:
-https://maven.pkg.jetbrains.space/public/p/compose/dev/org/jetbrains/compose/components/components-resources/1.3.0-beta04-dev871/components-resources-1.3.0-beta04-dev871.module
-
 {
   "formatVersion": "1.1",
   "component": {
     "group": "org.jetbrains.compose.components",
     "module": "components-resources",
-    "version": "1.3.0-beta04-dev871",
+    "version": "0.0.0-custom-version",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -36,21 +33,21 @@ https://maven.pkg.jetbrains.space/public/p/compose/dev/org/jetbrains/compose/com
           "group": "org.jetbrains.compose.runtime",
           "module": "runtime",
           "version": {
-            "requires": "1.3.0-beta04-dev871"
+            "requires": "0.0.0-custom-version"
           }
         },
         {
           "group": "org.jetbrains.compose.foundation",
           "module": "foundation",
           "version": {
-            "requires": "1.3.0-beta04-dev871"
+            "requires": "0.0.0-custom-version"
           }
         }
       ],
       "files": [
         {
-          "name": "library-metadata-1.3.0-beta04-dev871.jar",
-          "url": "components-resources-1.3.0-beta04-dev871.jar",
+          "name": "library-metadata-0.0.0-custom-version.jar",
+          "url": "components-resources-0.0.0-custom-version.jar",
           "size": 8469,
           "sha512": "dcfe4685308c0f5119a692334805d6e0e0ab1192caa0bcee8a80ea4e7f10b82a52439f7a6951dad94331a47438f89f73a8ec1acc5be0fa74a0499907c0ea1974",
           "sha256": "7a1931975f789c70b725a5b1f7808b7a2bdef0685a54d59c10cb2b3b5f4ae717",
@@ -67,10 +64,10 @@ https://maven.pkg.jetbrains.space/public/p/compose/dev/org/jetbrains/compose/com
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../library-android/1.3.0-beta04-dev871/library-android-1.3.0-beta04-dev871.module",
+        "url": "../../library-android/0.0.0-custom-version/library-android-0.0.0-custom-version.module",
         "group": "org.jetbrains.compose.components",
         "module": "library-android",
-        "version": "1.3.0-beta04-dev871"
+        "version": "0.0.0-custom-version"
       }
     },
     {
@@ -81,10 +78,10 @@ https://maven.pkg.jetbrains.space/public/p/compose/dev/org/jetbrains/compose/com
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../library-android/1.3.0-beta04-dev871/library-android-1.3.0-beta04-dev871.module",
+        "url": "../../library-android/0.0.0-custom-version/library-android-0.0.0-custom-version.module",
         "group": "org.jetbrains.compose.components",
         "module": "library-android",
-        "version": "1.3.0-beta04-dev871"
+        "version": "0.0.0-custom-version"
       }
     },
     {
@@ -96,10 +93,10 @@ https://maven.pkg.jetbrains.space/public/p/compose/dev/org/jetbrains/compose/com
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../components-resources-desktop/1.3.0-beta04-dev871/components-resources-desktop-1.3.0-beta04-dev871.module",
+        "url": "../../components-resources-desktop/0.0.0-custom-version/components-resources-desktop-0.0.0-custom-version.module",
         "group": "org.jetbrains.compose.components",
         "module": "components-resources-desktop",
-        "version": "1.3.0-beta04-dev871"
+        "version": "0.0.0-custom-version"
       }
     },
     {
@@ -111,100 +108,107 @@ https://maven.pkg.jetbrains.space/public/p/compose/dev/org/jetbrains/compose/com
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../components-resources-desktop/1.3.0-beta04-dev871/components-resources-desktop-1.3.0-beta04-dev871.module",
+        "url": "../../components-resources-desktop/0.0.0-custom-version/components-resources-desktop-0.0.0-custom-version.module",
         "group": "org.jetbrains.compose.components",
         "module": "components-resources-desktop",
-        "version": "1.3.0-beta04-dev871"
+        "version": "0.0.0-custom-version"
       }
     },
     {
       "name": "iosArm64ApiElements-published",
       "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
         "org.gradle.category": "library",
         "org.gradle.usage": "kotlin-api",
         "org.jetbrains.kotlin.native.target": "ios_arm64",
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../library-iosarm64/1.3.0-beta04-dev871/library-iosarm64-1.3.0-beta04-dev871.module",
-        "group": "components.resources",
-        "module": "library-iosarm64",
-        "version": "1.3.0-beta04-dev871"
+        "url": "../../components-resources-iosArm64/0.0.0-custom-version/components-resources-iosArm64-0.0.0-custom-version.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-iosArm64",
+        "version": "0.0.0-custom-version"
       }
     },
     {
       "name": "iosArm64MetadataElements-published",
       "attributes": {
+        //this is on mavenLocal
+        "artifactType": "org.jetbrains.kotlin.klib",
         "org.gradle.category": "library",
         "org.gradle.usage": "kotlin-metadata",
         "org.jetbrains.kotlin.native.target": "ios_arm64",
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../library-iosarm64/1.3.0-beta04-dev871/library-iosarm64-1.3.0-beta04-dev871.module",
-        "group": "components.resources",
-        "module": "library-iosarm64",
-        "version": "1.3.0-beta04-dev871"
+        "url": "../../components-resources-iosArm64/0.0.0-custom-version/components-resources-iosArm64-0.0.0-custom-version.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-iosArm64",
+        "version": "0.0.0-custom-version"
       }
     },
     {
       "name": "iosSimulatorArm64ApiElements-published",
       "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
         "org.gradle.category": "library",
         "org.gradle.usage": "kotlin-api",
         "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../library-iossimulatorarm64/1.3.0-beta04-dev871/library-iossimulatorarm64-1.3.0-beta04-dev871.module",
-        "group": "components.resources",
-        "module": "library-iossimulatorarm64",
-        "version": "1.3.0-beta04-dev871"
+        "url": "../../components-resources-iosSimulatorArm64/0.0.0-custom-version/components-resources-iosSimulatorArm64-0.0.0-custom-version.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-iosSimulatorArm64",
+        "version": "0.0.0-custom-version"
       }
     },
     {
       "name": "iosSimulatorArm64MetadataElements-published",
       "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
         "org.gradle.category": "library",
         "org.gradle.usage": "kotlin-metadata",
         "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../library-iossimulatorarm64/1.3.0-beta04-dev871/library-iossimulatorarm64-1.3.0-beta04-dev871.module",
-        "group": "components.resources",
-        "module": "library-iossimulatorarm64",
-        "version": "1.3.0-beta04-dev871"
+        "url": "../../components-resources-iosSimulatorArm64/0.0.0-custom-version/components-resources-iosSimulatorArm64-0.0.0-custom-version.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-iosSimulatorArm64",
+        "version": "0.0.0-custom-version"
       }
     },
     {
       "name": "iosX64ApiElements-published",
       "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
         "org.gradle.category": "library",
         "org.gradle.usage": "kotlin-api",
         "org.jetbrains.kotlin.native.target": "ios_x64",
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../library-iosx64/1.3.0-beta04-dev871/library-iosx64-1.3.0-beta04-dev871.module",
-        "group": "components.resources",
-        "module": "library-iosx64",
-        "version": "1.3.0-beta04-dev871"
+        "url": "../../components-resources-iosX64/0.0.0-custom-version/components-resources-iosX64-0.0.0-custom-version.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-iosX64",
+        "version": "0.0.0-custom-version"
       }
     },
     {
       "name": "iosX64MetadataElements-published",
       "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
         "org.gradle.category": "library",
         "org.gradle.usage": "kotlin-metadata",
         "org.jetbrains.kotlin.native.target": "ios_x64",
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../library-iosx64/1.3.0-beta04-dev871/library-iosx64-1.3.0-beta04-dev871.module",
-        "group": "components.resources",
-        "module": "library-iosx64",
-        "version": "1.3.0-beta04-dev871"
+        "url": "../../components-resources-iosX64/0.0.0-custom-version/components-resources-iosX64-0.0.0-custom-version.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-iosX64",
+        "version": "0.0.0-custom-version"
       }
     },
     {
@@ -216,10 +220,10 @@ https://maven.pkg.jetbrains.space/public/p/compose/dev/org/jetbrains/compose/com
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../components-resources-js/1.3.0-beta04-dev871/components-resources-js-1.3.0-beta04-dev871.module",
+        "url": "../../components-resources-js/0.0.0-custom-version/components-resources-js-0.0.0-custom-version.module",
         "group": "org.jetbrains.compose.components",
         "module": "components-resources-js",
-        "version": "1.3.0-beta04-dev871"
+        "version": "0.0.0-custom-version"
       }
     },
     {
@@ -231,70 +235,74 @@ https://maven.pkg.jetbrains.space/public/p/compose/dev/org/jetbrains/compose/com
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../components-resources-js/1.3.0-beta04-dev871/components-resources-js-1.3.0-beta04-dev871.module",
+        "url": "../../components-resources-js/0.0.0-custom-version/components-resources-js-0.0.0-custom-version.module",
         "group": "org.jetbrains.compose.components",
         "module": "components-resources-js",
-        "version": "1.3.0-beta04-dev871"
+        "version": "0.0.0-custom-version"
       }
     },
     {
       "name": "macosArm64ApiElements-published",
       "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
         "org.gradle.category": "library",
         "org.gradle.usage": "kotlin-api",
         "org.jetbrains.kotlin.native.target": "macos_arm64",
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../library-macosarm64/1.3.0-beta04-dev871/library-macosarm64-1.3.0-beta04-dev871.module",
-        "group": "components.resources",
-        "module": "library-macosarm64",
-        "version": "1.3.0-beta04-dev871"
+        "url": "../../components-resources-macosArm64/0.0.0-custom-version/components-resources-macosArm64-0.0.0-custom-version.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-macosArm64",
+        "version": "0.0.0-custom-version"
       }
     },
     {
       "name": "macosArm64MetadataElements-published",
       "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
         "org.gradle.category": "library",
         "org.gradle.usage": "kotlin-metadata",
         "org.jetbrains.kotlin.native.target": "macos_arm64",
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../library-macosarm64/1.3.0-beta04-dev871/library-macosarm64-1.3.0-beta04-dev871.module",
-        "group": "components.resources",
-        "module": "library-macosarm64",
-        "version": "1.3.0-beta04-dev871"
+        "url": "../../components-resources-macosArm64/0.0.0-custom-version/components-resources-macosArm64-0.0.0-custom-version.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-macosArm64",
+        "version": "0.0.0-custom-version"
       }
     },
     {
       "name": "macosX64ApiElements-published",
       "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
         "org.gradle.category": "library",
         "org.gradle.usage": "kotlin-api",
         "org.jetbrains.kotlin.native.target": "macos_x64",
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../library-macosx64/1.3.0-beta04-dev871/library-macosx64-1.3.0-beta04-dev871.module",
-        "group": "components.resources",
-        "module": "library-macosx64",
-        "version": "1.3.0-beta04-dev871"
+        "url": "../../components-resources-macosX64/0.0.0-custom-version/components-resources-macosX64-0.0.0-custom-version.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-macosX64",
+        "version": "0.0.0-custom-version"
       }
     },
     {
       "name": "macosX64MetadataElements-published",
       "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
         "org.gradle.category": "library",
         "org.gradle.usage": "kotlin-metadata",
         "org.jetbrains.kotlin.native.target": "macos_x64",
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../library-macosx64/1.3.0-beta04-dev871/library-macosx64-1.3.0-beta04-dev871.module",
-        "group": "components.resources",
-        "module": "library-macosx64",
-        "version": "1.3.0-beta04-dev871"
+        "url": "../../components-resources-macosX64/0.0.0-custom-version/components-resources-macosX64-0.0.0-custom-version.module",
+        "group": "org.jetbrains.compose.components",
+        "module": "components-resources-macosX64",
+        "version": "0.0.0-custom-version"
       }
     }
   ]

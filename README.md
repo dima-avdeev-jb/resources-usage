@@ -10,11 +10,11 @@
 ## Problem
 Look at [build.gradle.kts](shared%2Fbuild.gradle.kts)
 
-in commonMain not work `implementation("org.jetbrains.compose.components:components-resources:1.3.0-beta04-dev871")`
+in commonMain not work `implementation("org.jetbrains.compose.components:components-resources:1.3.0-beta04-dev877")`
 
-And I made workaround `implementation("org.jetbrains.compose.components:components-resources-macosX64:1.3.0-beta04-dev871")//workaround`
+And I made workaround `implementation("org.jetbrains.compose.components:components-resources-macosX64:1.3.0-beta04-dev877")//workaround`
 
 ## Possible problem:
-Take a look at file I copied from .m2/... dir [components-resources-0.0.0-custom-version.module](attention%2Fcomponents-resources-0.0.0-custom-version.module)
+Take a look at file I copied from .m2/... dir [from-maven-local.module](attention%2Ffrom-maven-local.module)
 
-And really published [really-published.txt](attention%2Freally-published.txt)
+And really published [readly-published.module](attention%2Freadly-published.module)
