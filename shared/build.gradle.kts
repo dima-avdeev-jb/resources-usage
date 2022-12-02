@@ -29,13 +29,13 @@ kotlin {
                 implementation(compose.foundation)
                 implementation(compose.material)
                 implementation(compose.runtime)
-                //implementation("org.jetbrains.compose.components:components-resources:1.3.0-beta04-dev877")//todo should work
+                implementation("org.jetbrains.compose.components:components-resources:1.3.0-beta04-dev877")//todo should work
             }
         }
         val desktopMain by getting {
             dependencies {
                 implementation(compose.desktop.common)
-                implementation("org.jetbrains.compose.components:components-resources:1.3.0-beta04-dev877")//workaround
+//                implementation("org.jetbrains.compose.components:components-resources:1.3.0-beta04-dev877")//workaround
             }
         }
         val macosMain by creating {
@@ -44,13 +44,13 @@ kotlin {
         val macosX64Main by getting {
             dependsOn(macosMain)
             dependencies {
-                implementation("org.jetbrains.compose.components:components-resources-macosX64:1.3.0-beta04-dev877")//workaround
+//                implementation("org.jetbrains.compose.components:components-resources-macosX64:1.3.0-beta04-dev877")//workaround
             }
         }
         val macosArm64Main by getting {
             dependsOn(macosMain)
             dependencies {
-                implementation("org.jetbrains.compose.components:components-resources-macosArm64:1.3.0-beta04-dev877")//workaround
+//                implementation("org.jetbrains.compose.components:components-resources-macosArm64:1.3.0-beta04-dev877")//workaround
             }
         }
     }
