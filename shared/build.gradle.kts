@@ -29,7 +29,7 @@ kotlin {
                 implementation(compose.foundation)
                 implementation(compose.material)
                 implementation(compose.runtime)
-                implementation("org.jetbrains.compose.components:components-resources:1.3.0-beta04-dev877")//todo should work
+                implementation("org.jetbrains.compose.components:components-resources:1.3.0-beta04-dev879")
             }
         }
         val desktopMain by getting {
